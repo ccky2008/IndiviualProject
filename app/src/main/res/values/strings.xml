@@ -1,0 +1,145 @@
+<resources>
+    <string name="app_name">ClassAndAfterclass</string>
+    <string name="empty"> </string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_reset_password">Reset Password</string>
+    <string name="lose_password">Lost Password</string>
+
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_invalid_appointment">Invalid Appointment</string>
+
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="search">Search</string>
+    <string name="new_post">New Post</string>
+    <string name="no_Question">All Questions are shown.</string>
+
+    <!-- AlertDialog -->
+    <string name="ok">OK</string>
+    <string name="error_message">Error Message:</string>
+    <string name="logout">Logout</string>
+    <string name="logoutMessage">Do you want to logout?</string>
+    <string name="cancel">Cancel</string>
+    <string name="invalidBooking">The time is reserved  by another student!!!!</string>
+    <string name="validBooking">Successfully reserve a slot!</string>
+
+    <!-- Navigation -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--Fragment_Question -->
+    <string name="question_title">Question Title</string>
+    <string name="question_content">Content</string>
+
+    <!-- Appointment Teacher-->
+    <string name="teacher_fragment_sorting_accepted">Accepted</string>
+    <string name="teacher_fragment_sorting_in_progress">In Progress</string>
+    <string name="teacher_fragment_accepted_appointment">Accept</string>
+    <string name="teacher_fragment_refuse_appointment">Refuse</string>
+
+    <!--Appointment Student-->
+    <string name="student_fragment_add_appoinment">Add Booking</string>
+
+    <string name="submit_button">Submit</string>
+    <string name="subject_title">Select a Subject</string>
+    <string-array name="subject">
+        <item>Chinese</item>
+        <item>English</item>
+        <item>Math</item>
+        <item>Others</item>
+    </string-array>
+
+    <!--Appontment DialogFragment-->
+    <string-array name="appointment_teacher_array">
+        <item>Select A Teacher:</item>
+        <item>Raymond Wong</item>
+        <item>Dr Disrespect</item>
+        <item>Tesla</item>
+        <item>Steven Li</item>
+    </string-array>
+
+    <string-array name="appointment_location_array">
+        <item>Select A Location:</item>
+        <item>Room 1011</item>
+        <item>Room 902</item>
+        <item>Room 203</item>
+        <item>Room 205</item>
+        <item>Room 303</item>
+    </string-array>
+
+    <string name="appointment_date_picker_text">Date :</string>
+    <string name="appointment_time_picker_text">Time :</string>
+    <string name="appointment_location_picker_text">Location :</string>
+    <string name="appointment_teacher_picker_text">Teacher :</string>
+
+    <string name="new_comment">Enter Your comment</string>
+
+    <string name="question_insertion">The question has been added</string>
+
+    <string name="button_pick_video">GALLERY</string>
+
+    <string name="button_record">RECORD</string>
+
+    <string name="video_upload_menu_account">Account</string>
+    <string name="video_upload_menu_refresh">Refresh</string>
+    <string name="button_video_upload">UPLOAD</string>
+    <string name="youtube_upload_started">The video is uploading</string>
+    <string name="video_select">Select a Video</string>
+    <string name="youtube_upload">YouTube upload</string>
+    <string name="initiation_started">Initiation Started</string>
+    <string name="initiation_completed">Initiation Completed</string>
+    <string name="upload_in_progress">Direct Lite upload in progress</string>
+    <string name="yt_upload_completed">YouTube Upload Completed</string>
+    <string name="upload_completed">Upload completed</string>
+    <string name="upload_not_started">Upload Not Started!</string>
+    <string name="yt_upload_failed">YouTube Upload Failed</string>
+    <string name="reauth_required">Re-login required</string>
+    <string name="please_try_again">Please try again</string>
+    <string name="cant_access_play">Can\'t access to Google Play services</string>
+    <string name="avatar">avatar</string>
+    <string name="pick_or_record_a_video_to_upload">Upload an existing video from your device or record a new one</string>
+    <string name="not_signed_in">Sign In</string>
+    <string name="connection_to_google_play_failed">Connection to Play Services failed.</string>
+
+    <string name="load">Loading.....</string>
+    <string name="present">Present:</string>
+    <string name="absent">Absent:</string>
+    <string name="totalStudent">Total Student: %1$d</string>
+    <string name="presentStudent">Present Student: %1$d</string>
+    <string name="absentStudent">Absent Student: %1$d</string>
+
+    <!--Quiz Catalog Fragment-->
+    <string name="quiz_time_error"> The quiz has yet start or the quiz has ended!!!!!</string>
+    <string name="quiz_header">Quiz</string>
+    <string name="quiz"> Quiz %1$d</string>
+    <string name="quiz_question_num">Question: %1$d</string>
+    <string name="quiz_time_limit">%1$s minutes</string>
+    <string name="quiz_start_at">Quiz Start At : %1$s </string>
+    <string name="open_question_warning">Press the Done Button (Bottom Right) after inputting your answer.</string>
+    <string name="quiz_submission_warning">Once you submit the quiz, you would not able to modify your answer again!</string>
+    <string name="quiz_submission_title">Submssion</string>
+    <string name="quiz_time_is_up">Time is up!!!!</string>
+
+    <!--Quiz Question Fragment-->
+    <string name="quiz_question"> Question %1$d</string>
+    <string name="open_question_input"> Put Your Answer here</string>
+    <string name="noCourseToday">You are free today!!</string>
+    <string name="rollCallCompleted">Roll Call Completed !</string>
+    <string name="rollCallWrongUser">The device cannot perform this function. Please user a valid device!</string>
+    <string name="invalid_date_and_time">Please enable automatic date &amp; time, time zone</string>
+    <string name="wrong_time_zone">Please select Hong Kong as time zone</string>
+    <string name="wifi_connection">Please connect your device to a device</string>
+    <string name="wifi_specifity">The wifi you connect cannot perform this function</string>
+    <string name="quiz_question_text">%1$d. %2$s</string>
+
+    <!-- chatroom -->
+    <string name="action_settings">setting</string>
+</resources>

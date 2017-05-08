@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/post_detail"
+    android:layout_marginTop="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/border_relative_layout">
+
+    <TextView
+        android:id="@+id/question_topic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:textSize="24sp"
+        android:padding="5dp"
+        android:textStyle="bold"
+        tools:text="This the Topic area " />
+
+    <TextView
+        android:id="@+id/question_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question_topic"
+        android:background="@drawable/border_bottom_textview"
+        android:padding="5dp"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        tools:text="This is the content the author write"/>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@drawable/border_bottom_textview"
+        android:weightSum="10"
+        android:layout_gravity="bottom"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/question_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_author_name"
+            android:background="@drawable/border_left_textview"
+            android:textColor="@color/colorBlack"
+            android:gravity="center"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:layout_weight="2"
+            tools:text="David"/>
+
+        <TextView
+            android:id="@+id/question_subject"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/colorBlack"
+            android:layout_weight="5"
+            android:gravity="center"
+            tools:text="Chinese"/>
+
+        <TextView
+            android:id="@+id/question_comment_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_comment"
+            android:background="@drawable/border_right_textview"
+            android:textColor="@color/colorBlack"
+            android:gravity="center"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:layout_weight="2"
+            tools:text="1"/>
+
+    </TableRow>
+</LinearLayout>

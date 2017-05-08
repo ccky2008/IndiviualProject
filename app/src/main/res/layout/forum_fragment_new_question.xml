@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/question_title"
+        android:layout_marginTop="@dimen/quesion_margin"
+        android:layout_marginLeft="@dimen/quesion_margin"
+        android:layout_marginRight="@dimen/quesion_margin"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18sp"
+        android:textColor="@android:color/widget_edittext_dark"/>
+
+    <EditText
+        android:id="@+id/question_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/quesion_margin"
+        android:layout_marginRight="@dimen/quesion_margin"
+        android:background="@drawable/rounded_border_edittext"
+        android:ems="10"
+        android:maxLength="50" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/question_content"
+        android:layout_marginTop="@dimen/quesion_margin"
+        android:layout_marginLeft="@dimen/quesion_margin"
+        android:layout_marginRight="@dimen/quesion_margin"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18sp"
+        android:textColor="@android:color/widget_edittext_dark"/>
+
+    <EditText
+        android:id="@+id/question_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/quesion_margin"
+        android:layout_marginRight="@dimen/quesion_margin"
+        android:background="@drawable/rounded_border_edittext"
+        android:ems="10"
+        android:lines="5"
+        android:gravity="top"
+        android:maxLength="100"
+        android:textIsSelectable="false"/>
+
+    <Spinner
+        android:id="@+id/question_subject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:spinnerMode="dialog"
+        android:touchscreenBlocksFocus="false"
+        android:prompt="@string/subject_title"/>
+
+    <Button
+        android:id="@+id/question_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ok"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

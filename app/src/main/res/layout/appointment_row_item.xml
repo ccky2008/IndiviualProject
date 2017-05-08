@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/appointment_row_box"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/tab_layout_margin"
+    android:padding="10dp"
+    android:background="@drawable/tab_row_inset_inprogress_border">
+
+    <TextView
+        android:id="@+id/appointment_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/tab_row_margin"
+        android:paddingLeft="@dimen/tab_text_start"
+        android:textSize="@dimen/tab_row_text_size"
+        tools:text="2017-01-12"/>
+
+    <TextView
+        android:id="@+id/appointment_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/tab_row_margin"
+        android:paddingLeft="@dimen/tab_text_start"
+        android:textSize="@dimen/tab_row_text_size"
+        tools:text="11F classroom"/>
+
+    <TextView
+        android:id="@+id/appointment_tutor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/tab_row_margin"
+        android:paddingLeft="@dimen/tab_text_start"
+        android:textSize="@dimen/tab_row_text_size"
+        tools:text="Dr DisRespect"/>
+
+</LinearLayout>

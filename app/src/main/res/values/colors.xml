@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="colorPrimary">#3C515C</color>
+    <color name="colorOriginalPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorDialogTitle">#0e4c62</color>
+    <color name="colorDialogBackground">#061715</color>
+    <color name="colorGrey">#aeadad</color>
+    <color name="colorShadowBlue">#3F51B5</color>
+    <color name="colorNavyBlue">#125688</color>
+    <color name="colorTabIndicator">#c8e8ff</color>
+    <color name="colorRed">#FF0000</color>
+    <color name="colorGreen">#2eec11</color>
+
+    <integer-array name="mycolors">
+        <item>@color/colorGrey</item>
+        <item>@color/colorShadowBlue</item>
+        <item>@color/colorTabIndicator</item>
+        <item>@color/colorDialogTitle</item>
+    </integer-array>
+
+    <integer-array name="progressDialog">
+        <item>@color/colorGrey</item>
+        <item>@color/colorBlack</item>
+    </integer-array>
+
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/comment_detail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/border_relative_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+        <TableRow
+            android:id="@+id/comment_base_infor"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:weightSum="8">
+
+            <TextView
+                android:id="@+id/comment_Num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textSize="10sp"
+                android:layout_weight="2"
+                android:textColor="@color/colorGrey"
+                tools:text="#1"/>
+
+            <TextView
+                android:id="@+id/comment_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textSize="10sp"
+                android:layout_weight="2"
+                android:textColor="@color/colorBlack"
+                tools:text="a1234567"/>
+
+            <TextView
+                android:id="@+id/comment_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textSize="10sp"
+                android:layout_weight="4"
+                android:textColor="@color/colorNavyBlue"
+                tools:text="08-12-2015"/>
+        </TableRow>
+
+        <TextView
+            android:id="@+id/comment"
+            android:layout_below="@id/comment_base_infor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:background="@drawable/border_bottom_textview"
+            tools:text="This is XD WHY YOU ARE WHY WHAT"/>
+</RelativeLayout>

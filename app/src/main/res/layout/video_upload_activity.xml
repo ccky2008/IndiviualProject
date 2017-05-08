@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <include android:id="@+id/toolbar" layout="@layout/toolbar"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <fragment
+        android:id="@+id/list_fragment"
+        android:name="com.bignerdranch.android.fyp.fragments.VideoGooglePlusFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:layout="@layout/video_google_plus" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:textSize="32sp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/pick_or_record_a_video_to_upload"
+            android:textAppearance="?android:textAppearanceMedium"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#eee"
+        android:divider="?android:dividerVertical"
+        android:showDividers="middle">
+
+        <Button
+            android:id="@+id/pick_button"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_gallery_video"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-condensed"
+            android:hint="@string/button_pick_video"
+            android:maxLines="2"
+            android:padding="8dp"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColorHint="#c00"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/record_button"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_record_video"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-condensed"
+            android:hint="@string/button_record"
+            android:maxLines="2"
+            android:padding="8dp"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColorHint="#c00"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/video_location_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/video_select"
+        android:textSize="17sp"
+        android:padding="8dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_border_edittext"/>
+
+
+    <Button
+        android:id="@+id/upload_button"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/ic_video_upload"
+        android:ellipsize="end"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="@string/button_video_upload"
+        android:maxLines="2"
+        android:background="#eee"
+        android:onClick="uploadVideo"
+        android:padding="8dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColorHint="#c00"
+        android:textStyle="bold" />
+
+</LinearLayout>

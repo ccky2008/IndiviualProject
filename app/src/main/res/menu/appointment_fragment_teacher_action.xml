@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_item_accept_appointment"
+          android:icon="@drawable/ic_action_tick"
+          android:title="@string/teacher_fragment_accepted_appointment" />
+
+    <item android:id="@+id/menu_item_refuse_appointment"
+        android:icon="@drawable/ic_action_cross"
+        android:title="@string/teacher_fragment_refuse_appointment" />
+</menu>
